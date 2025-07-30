@@ -81,7 +81,7 @@ export const HomePage = ({ onStartJournal, onViewArchive, entriesCount }: HomePa
                   <span className="text-primary font-bold text-lg">C</span>
                 </div>
                 <h4 className="font-semibold text-lg mb-2">Compliment</h4>
-                <p className="text-sm text-muted-foreground">Acknowledge what you're proud of</p>
+                <p className="text-sm text-muted-foreground">Internal self-affirmation and pride</p>
               </div>
               
               <div className="text-center">
@@ -89,7 +89,7 @@ export const HomePage = ({ onStartJournal, onViewArchive, entriesCount }: HomePa
                   <span className="text-primary font-bold text-lg">A</span>
                 </div>
                 <h4 className="font-semibold text-lg mb-2">Achievement</h4>
-                <p className="text-sm text-muted-foreground">Celebrate your accomplishments</p>
+                <p className="text-sm text-muted-foreground">Concrete goals and external results</p>
               </div>
               
               <div className="text-center">
@@ -97,7 +97,7 @@ export const HomePage = ({ onStartJournal, onViewArchive, entriesCount }: HomePa
                   <span className="text-primary font-bold text-lg">R</span>
                 </div>
                 <h4 className="font-semibold text-lg mb-2">Reflection</h4>
-                <p className="text-sm text-muted-foreground">Learn from your experiences</p>
+                <p className="text-sm text-muted-foreground">Lessons from all experiences</p>
               </div>
               
               <div className="text-center">
@@ -105,7 +105,7 @@ export const HomePage = ({ onStartJournal, onViewArchive, entriesCount }: HomePa
                   <span className="text-primary font-bold text-lg">E</span>
                 </div>
                 <h4 className="font-semibold text-lg mb-2">Emotion</h4>
-                <p className="text-sm text-muted-foreground">Honor your feelings</p>
+                <p className="text-sm text-muted-foreground">Emotional awareness and triggers</p>
               </div>
             </div>
           </CardContent>

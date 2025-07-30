@@ -20,38 +20,38 @@ interface CareJournalFlowProps {
 const careSteps = [
   {
     key: 'compliment',
-    title: 'Compliment',
+    title: 'Compliment (Self-Praise)',
     icon: Heart,
     question: "What behavior or attitude am I proud of this week?",
-    prompt: "Think about a moment when you showed kindness, courage, or growth...",
-    placeholder: "This week I'm proud of how I...",
+    prompt: "Focus on your internal evaluation - moments where you positively viewed your mindset, decisions, or personal approach, regardless of the outcome...",
+    placeholder: "This week I'm proud of my attitude when...",
     color: "text-primary"
   },
   {
     key: 'achievement',
     title: 'Achievement',
     icon: Trophy,
-    question: "What did I accomplish that made me feel good?",
-    prompt: "Consider both big wins and small victories that brought you joy...",
-    placeholder: "I accomplished...",
+    question: "What specific goals or results did I accomplish this week?",
+    prompt: "Record concrete external accomplishments - completed tasks, met goals, or valuable outcomes you produced...",
+    placeholder: "I accomplished the specific goal of...",
     color: "text-yellow-600"
   },
   {
     key: 'reflection',
     title: 'Reflection',
     icon: Lightbulb,
-    question: "What did I learn about myself this week?",
-    prompt: "Think about insights, patterns, or new understanding you gained...",
-    placeholder: "I learned that I...",
+    question: "What lesson did I learn from my experiences this week?",
+    prompt: "Consider both successes and failures - what insights did you gain that will help you grow or make better decisions in the future?",
+    placeholder: "From this week's experiences, I learned that...",
     color: "text-blue-600"
   },
   {
     key: 'emotion',
     title: 'Emotion',
     icon: Smile,
-    question: "How am I feeling right now, and what do I need?",
-    prompt: "Honor your current emotional state and any needs that arise...",
-    placeholder: "Right now I'm feeling...",
+    question: "What were the key emotions I felt this week, and what situations triggered those emotions?",
+    prompt: "Focus on emotional awareness - identify the main emotions you experienced and the specific contexts or situations that brought them up...",
+    placeholder: "The main emotions I felt were... and they were triggered by...",
     color: "text-green-600"
   }
 ];
